@@ -1,0 +1,68 @@
+$white: #F8F8FF;
+$blue:#0453C9;
+
+.auth{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    background-color:$white;
+
+
+    h1{
+        font-size:20px;
+        color:black; 
+        margin-bottom:30px;
+    }
+
+    form{
+        display:flex;
+        flex-direction: column;
+        width:350px;
+        min-height:120px;
+        padding:40px;
+        gap:20px;
+        background-color: black;
+        input{
+            padding:10px;
+            border:none;
+            border-bottom:1px solid white;
+            background-color: black;
+            color:white;
+            &::placeholder{
+                color:white;
+            }
+        }
+        button{
+            padding:10px 20px 10px 20px;
+            background-color:white;
+            border:none;
+            cursor:pointer;
+            color:black;
+
+            
+        }
+
+        p{
+            color:white;
+            font-size:12px;
+            text-align: center;
+        }
+        span{
+            font-size:12px;
+            text-align: center;
+            color:white;
+
+            .link{
+                text-decoration: none;
+                color:white;
+                font-size: 12px;
+                border:1px solid white;
+                padding:2px;
+                // font-weight:700;
+            }
+        }
+    }
+}
